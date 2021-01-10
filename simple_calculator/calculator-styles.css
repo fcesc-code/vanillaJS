@@ -1,0 +1,304 @@
+/* Francesc Brugarolas - Skylab bootcamp 2020-07 - Precurs */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+/* initial settings */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Heebo', sans-serif;
+    --cBgScreen: #1f1f1f;
+    --cBgScreenLight: #f5f5f5;
+    --cBgNumbers: #dddddd;
+    --cBgActions: #ffcc33;
+    --cBgSuper: #90ffdd;
+    --cBgCalc: #e60000;
+    --cBgNumbersHighlighted: #979797;
+    --cBgActionsHighlighted: #ffa909;
+    --cBgSuperHighlighted: #05ecb3;
+    --cBgCalcHighlighted: #990000;
+    --cTxtScreen: #eeeeee;
+    --cTextScreenLight: #1f1f1f;
+    --cTxtButtons: #181818;
+    --cTxtButtonsHighlighted: #380000;
+}
+p {
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+/* header */
+header{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+/* footer */
+footer > p{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+/* main */
+.super{
+    background-color: var(--cBgSuper);
+    color: var(--cTxtButtons);
+    font-weight: bold;
+}
+.super:hover{
+    background-color: var(--cBgSuperHighlighted);
+    color: var(--cTxtButtonsHighlighted);
+    font-weight: bolder;
+}
+.number{
+    background-color: var(--cBgNumbers);
+    color: var(--cTxtButtons);
+}
+.number:hover{
+    background-color: var(--cBgNumbersHighlighted);
+    color: var(--cTxtButtonsHighlighted);
+    font-weight: bolder;
+}
+.ops{
+    background-color: var(--cBgActions);
+    color: var(--cTxtButtons);
+}
+.ops:hover{
+    background-color: var(--cBgActionsHighlighted);
+    color: var(--cTxtButtonsHighlighted);
+    font-weight: bolder;
+}
+#grid_container {
+    width: 40vw;
+    line-height: 3rem;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 11.11%);
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 0.25rem;
+    row-gap: 0.35rem;
+}
+#el_screen_calc {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: 1;
+    padding: 1rem;
+    text-align: right;
+    background-color: var(--cBgScreen);
+    color: var(--cTxtScreen);
+    font-weight: bold;
+}
+#el_screen_history {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 1rem;
+    text-align: left;
+    line-height: 1.4rem;
+    font-size: .8rem;
+    background-color: var(--cBgScreenLight);
+    color: var(--cTxtScreenLight);
+}
+#el_num_9 {
+    grid-column: 3;
+    grid-row: 4;
+}
+#el_num_8 {
+    grid-column: 2;
+    grid-row: 4;
+}
+#el_num_7 {
+    grid-column: 1;
+    grid-row: 4;
+}
+#el_num_6 {
+    grid-column: 3;
+    grid-row: 5;
+}
+#el_num_5 {
+    grid-column: 2;
+    grid-row: 5;
+}
+#el_num_4 {
+    grid-column: 1;
+    grid-row: 5;
+}
+#el_num_3 {
+    grid-column: 3;
+    grid-row: 6;
+}
+#el_num_2 {
+    grid-column: 2;
+    grid-row: 6;
+}
+#el_num_1 {
+    grid-column: 1;
+    grid-row: 6;
+}
+#el_num_0 {
+    grid-column: 1;
+    grid-row: 7;
+}
+#el_decimal {
+    grid-column: 3;
+    grid-row: 7;
+}
+#el_const_pi {
+    grid-column: 6;
+    grid-row: 4;
+}
+#el_const_e {
+    grid-column: 7;
+    grid-row: 4;
+}
+#el_const_phi {
+    grid-column: 8;
+    grid-row: 4;
+}
+#el_const_sq2 {
+    grid-column: 9;
+    grid-row: 4;
+}
+#el_op_addition {
+    grid-column: 4;
+    grid-row: 4;
+}
+#el_op_substraction {
+    grid-column: 5;
+    grid-row: 4;
+}
+#el_op_division {
+    grid-column: 4;
+    grid-row: 5;
+}
+#el_op_modulo {
+    grid-column: 5;
+    grid-row: 5;
+}
+#el_op_product {
+    grid-column: 4;
+    grid-row: 6;
+}
+#el_op_exp10 {
+    grid-column: 4;
+    grid-row: 7;
+}
+#el_unary_factorial {
+    grid-column: 5;
+    grid-row: 6;
+}
+#el_unary_invx {
+    grid-column: 5;
+    grid-row: 7;
+}
+#el_unary_square {
+    grid-column: 1;
+    grid-row: 3;
+}
+#el_unary_squareroot {
+    grid-column: 2;
+    grid-row: 3;
+}
+#el_unary_cube {
+    grid-column: 1;
+    grid-row: 2;
+}
+#el_unary_cubicroot {
+    grid-column: 2;
+    grid-row: 2;
+}
+#el_unary_percent {
+    grid-column: 3;
+    grid-row: 3;
+}
+#el_unary_abs {
+    grid-column: 3;
+    grid-row: 2;
+}
+#el_unary_changeSign {
+    grid-column: 2;
+    grid-row: 7;
+}
+#el_op_xexpy {
+    grid-column: 6;
+    grid-row: 5;
+}
+#el_op_xrooty {
+    grid-column: 7;
+    grid-row: 5;
+}
+#el_unary_log {
+    grid-column: 6;
+    grid-row: 6;
+}
+#el_unary_invlog {
+    grid-column: 7;
+    grid-row: 6;
+}
+#el_unary_ln {
+    grid-column: 6;
+    grid-row: 7;
+}
+#el_unary_invln {
+    grid-column: 7;
+    grid-row: 7;
+}
+#el_unary_sin {
+    grid-column: 8;
+    grid-row: 5;
+}
+#el_unary_cos {
+    grid-column: 8;
+    grid-row: 6;
+}
+#el_unary_tan {
+    grid-column: 8;
+    grid-row: 7;
+}
+#el_unary_asin {
+    grid-column: 9;
+    grid-row: 5;
+}
+#el_unary_acos {
+    grid-column: 9;
+    grid-row: 6;
+}
+#el_unary_atan {
+    grid-column: 9;
+    grid-row: 7;
+}
+#el_super_undo {
+    grid-column: 4;
+    grid-row: 2;
+}
+#el_super_calc {
+    grid-column: 5;
+    grid-row: 2;
+    background-color: var(--cBgCalc);
+    color: var(--cTxtScreen);
+    font-weight: bold;
+}
+#el_super_calc:hover{
+    background-color: var(--cBgCalcHighlighted);
+}
+#el_super_ce {
+    grid-column: 4;
+    grid-row: 3;
+}
+#el_super_c {
+    grid-column: 5;
+    grid-row: 3;
+}
+/*
+#el_as_leftparen {
+    grid-column: 2;
+    grid-row: 2;
+}
+#el_as_rightparen {
+    grid-column: 3;
+    grid-row: 2;
+}
+*/
