@@ -1,12 +1,12 @@
 SIMPLE CALCULATOR
 =================
 
-* Get back to main VanillaJS [repo](https://github.com/fcesc-code/vanillaJS/)
-* Visit all my other [repos](https://github.com/fcesc-code/)
+Get back to main VanillaJS [repo](https://github.com/fcesc-code/vanillaJS/)\
+Visit all my other [repos](https://github.com/fcesc-code/)
 
 ### Versions
 
-Minor quality upgrades January 2021
+Minor quality upgrades January 2021\
 Release June 2020
 
 ### Tech stack
