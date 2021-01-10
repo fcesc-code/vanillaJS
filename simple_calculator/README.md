@@ -18,8 +18,7 @@ Release June 2020
 - DOM
 
 *Testing*
-- Mocha
-- Chai
+- Jest
 - Nyc
 
 *Code quality*
