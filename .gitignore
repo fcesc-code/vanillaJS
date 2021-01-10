@@ -1,0 +1,108 @@
+# Francesc Brugarolas - final project - Skylab bootcamp 202007
+# Customized .gitignore project rules
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/.scannerwork
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#project media files
+images/
+media/
+assets/
+
+#project backup and temporary files
+backup/
+delete/
+temp/
+
+#prototypes and other private inforamtion
+presentations/
+prototypes/
+license/
+private/
+project/
+
+#mockdata
+mockdata/
+*.csv
+
+#firebase
+.firebaserc
+firebase.json
+.firebase/
+firebaseinit.js
+
+#media files
+*.apng
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.raw
+*.tiff
+*.eps
+*.ico
+*.WebP
+*.bmp
+*.ai
+*.mpg
+*.mpeg
+*.wav
+*.pdf
+*.mp3
+*.mp4
+*.ogg
+*.mov
+*.WebM
+*.flac
+*.adts
+*.3gp
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.otf
+*.oga
+*.aac
+*.svg
+
+#docs files
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pdf
+*.excalidraw
+*.xcf
+
+#config files
+*_CONFIG.*
+*_config.*
+*.CONFIG.*
+*.config.*
+*SECRET*.*
+*secret*.*
+*KEY*.*
+*key*.*
