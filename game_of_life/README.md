@@ -15,24 +15,24 @@ Last updated July 2020
 ### Tech stack
 
 *Languages*
--Javascript
+*Javascript
 
 *Core stack*
--canvas
+*canvas
 
 *Testing*
--Jasmine
+*Jasmine
 
 *Code quality*
--Eslint
--Sonarqube
+*Eslint
+*Sonarqube
 
 ### Philosophy, frameworks & principles
 
--Agile
--Scrum
--SOLID principles
--TDD
+ -Agile
+ -Scrum
+ -SOLID principles
+ -TDD
 
 ### Quality
 
