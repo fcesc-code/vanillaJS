@@ -3,6 +3,11 @@ VANILLA JS PUBLIC REPOSITORY
 
 Some projects in plain, pure Javascript. No frameworks are used in this repo.
 
+
+### Projects displayed
+
+1. Conway's Game Of Life, using canvas to display. [GOL](https://github.com/fcesc-code/vanillaJS/tree/master/game_of_life)
+
 ### Versions
 
 Last updated january 2021
@@ -29,10 +34,6 @@ Last updated january 2021
 -Scrum
 -SOLID principles
 -TDD
-
-### Projects displayed
-
-1. Conway's Game Of Life, using canvas to display.
 
 
 ### Author
