@@ -1,0 +1,14 @@
+{
+  "name": "game_of_life",
+  "version": "1.0.0",
+  "description": "Conway's Game Of Life",
+  "main": "gameOfLife.html",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Francesc Brugarolas",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.6.3"
+  }
+}
