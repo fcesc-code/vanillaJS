@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cinentradas</title>
+</head>
+<body>
+  <header>
+    <h1>Reserve your cinema seat</h1>
+  </header>
+
+  <main>
+    <div class="movies__container"></div>
+    <ul class="showcase">
+      <li>
+        <div class="plan__seat"></div>
+        <small>Unassigned</small>
+      </li>
+      <li>
+        <div class="plan__seat dummySelected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="plan__seat occupied"></div>
+        <small>Ocuppied</small>
+      </li>
+    </ul>
+    <div class="cinemaPlan__container"></div>
+
+    <p class="text">
+      You have selected <span id="seatCounter">0</span> seats for a price of <span id="totalPrice">0,00</span> €
+    </p>
+  </main>
+
+  <footer>
+    <p>Francesc Brugarolas - PAC 1 - October 2020 - Frameworks JS - <a class="link--discreet" href="http://www.uoc.edu">UOC</a></p>
+  </footer>
+
+  <script src="mockdata.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
