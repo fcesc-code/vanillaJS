@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME OF LIFE</title>
+    <link rel="stylesheet" href="gameOfLife.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id='gameScreen'></canvas>
+        <h2>Conway's game of life</h2>
+        <div class="container__options">
+            <ul>
+                <li>Universe tick: <span id="ticks" type="text"></span></li>
+                <li>Accum. births: <span id="births" type="text"></span></li>
+                <li>Accum. deaths: <span id="deaths" type="text"></span></li>
+                <li>Accum. growth: <span id="growth" type="text"></span></li>
+                <li>Living blocks: <span id="alive" type="text"></span></li>
+                <li>Block density: <span id="density" type="text"></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="gameOfLife.js"></script>
+</body>
+</html>
