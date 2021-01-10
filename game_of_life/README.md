@@ -1,5 +1,5 @@
-CONWAY'S GAME OF LIFE
-============================
+CONWAY'S [GAME OF LIFE](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+=======================
 
 Get back to main VanillaJS [repo](https://github.com/fcesc-code/vanillaJS/)
 Visit all my other [repos](https://github.com/fcesc-code/)
