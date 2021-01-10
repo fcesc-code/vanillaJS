@@ -15,41 +15,41 @@ Last updated July 2020
 ### Tech stack
 
 *Languages*
-*Javascript
+- Javascript
 
 *Core stack*
-*canvas
+- canvas
 
 *Testing*
-*Jasmine
+- Jasmine
 
 *Code quality*
-*Eslint
-*Sonarqube
+- Eslint
+- Sonarqube
 
 ### Philosophy, frameworks & principles
 
- -Agile
- -Scrum
- -SOLID principles
- -TDD
+- Agile
+- Scrum
+- SOLID principles
+- TDD
 
 ### Quality
 
 [Jasmine](https://jasmine.github.io/):
-  100% code coverage
+- 100% code coverage
 [SonarQube](https://www.sonarqube.org/) community edition:
-  0% security hotspots
-  0% vulnerabilities
-  0% bugs
-  0% code smells
-  0% code duplication
+- 0% security hotspots
+- 0% vulnerabilities
+- 0% bugs
+- 0% code smells
+- 0% code duplication
 HTML Standards verification [W3C](https://validator.w3.org/):
-  0 warnings
-  0 errors
+- 0 warnings
+- 0 errors
 CSS Standards verification [W3C](https://jigsaw.w3.org/css-validator/):
-  0 warnings 
-  0 errors
+- 0 warnings 
+- 0 errors
 
 ### Author
 
