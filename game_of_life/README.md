@@ -1,16 +1,14 @@
-CONWAY'S [GAME OF LIFE](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-=======================
+CONWAY'S GAME OF LIFE
+=====================
 
-Get back to main VanillaJS [repo](https://github.com/fcesc-code/vanillaJS/)
-Visit all my other [repos](https://github.com/fcesc-code/)
-
-### Projects displayed
-
-1. Conway's Game Of Life, using canvas to display. [GOL](https://github.com/fcesc-code/vanillaJS/tree/master/game_of_life)
+*More information about Conway's Game of Life [here](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+*Get back to main VanillaJS [repo](https://github.com/fcesc-code/vanillaJS/)
+*Visit all my other [repos](https://github.com/fcesc-code/)
 
 ### Versions
 
-Last updated July 2020
+Minor quality upgrades January 2021
+Release July 2020
 
 ### Tech stack
 
