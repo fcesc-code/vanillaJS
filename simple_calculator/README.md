@@ -15,7 +15,7 @@ Release June 2020
 - Javascript
 
 *Core stack*
-- canvas
+- DOM
 
 *Testing*
 - Mocha
