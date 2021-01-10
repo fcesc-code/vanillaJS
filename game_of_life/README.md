@@ -30,12 +30,11 @@ Release July 2020
 - Agile
 - Scrum
 - SOLID principles
-- TDD
 
 ### Quality
 
 *[Jasmine](https://jasmine.github.io/):*
-- 100% code coverage
+- 11 board tests - no unit testing
 
 *[SonarQube](https://www.sonarqube.org/) community edition:*
 - 0% security hotspots

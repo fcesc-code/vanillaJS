@@ -87,7 +87,9 @@ class Game {
         this.seedRandom = function puebla(){
             for (let i=0; i<this.params.vcells; i++){
                 for (let j=0; j<this.params.hcells; j++){
-                    let value = randomProbability(20);
+                    let temp = randomProbability(20);
+                    let index = Math.floor(this.getRandomNumber() * temp.length);
+                    let value = temp[index];
                     if (value === 1){ this.state.births++; }
                     this.state.nextBoard[i][j] = value;
                 }
@@ -106,8 +108,7 @@ class Game {
                 for (let i = 0; i<100 - probability; i++){
                     notRandom.push(0);
                 }
-                let index = Math.floor(Math.random() * notRandom.length);
-                return notRandom[index];
+                return notRandom;
             }
         }
 
@@ -138,7 +139,7 @@ class Game {
                         ctx.font = '10pt sans-serif';
                         ctx.textAlign = 'center';
                         ctx.textBaseline = 'middle';
-                        let text = this.params.matrixStyle[Math.floor(Math.random() * this.params.matrixLength)];
+                        let text = this.params.matrixStyle[Math.floor(this.getRandomNumber() * this.params.matrixLength)];
                         let centerOffset = this.params.gridCell / 2;
                         ctx.strokeStyle = this.params.styleMesh;
                         ctx.strokeRect(j, i, this.params.gridCell, this.params.gridCell);
@@ -277,6 +278,13 @@ class Game {
                 this.fadeOut();
                 return;
             }
+        }
+
+        this.getRandomNumber = function numAleatorio(){
+            const crypto = window.crypto || window.msCrypto;
+            let array = new Uint32Array(1);
+            let value = crypto.getRandomValues(array);
+            return Number(value).toFixed(17) / (Math.pow(2, 32) - 1);
         }
     }
 }
