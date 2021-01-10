@@ -51,8 +51,11 @@ Last updated July 2020
 - 0 errors
 
 *CSS Standards verification [W3C](https://jigsaw.w3.org/css-validator/):*
-- 0 warnings 
+- 0 warnings // excluding warnings related to the use of css variables +[info](https://caniuse.com/css-variables)
 - 0 errors
+
+*Accessibility validation [AChecker](https://achecker.ca/checker/index.php):*
+- 0 known problems // potential problems ignored since site uses canvas rendering for educational purposes
 
 ### Author
 
