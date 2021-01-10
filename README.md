@@ -38,7 +38,7 @@ Last updated january 2021
 
 ### Author
 
-Francesc Brugarolas. Passionate about building phisically and, especially, in code.
+Francesc Brugarolas. Passionate about building things, both phisically and, especially, in code.
 
 ### Special thanks to
 

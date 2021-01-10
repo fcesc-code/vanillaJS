@@ -1,18 +1,17 @@
-# Francesc Brugarolas - final project - Skylab bootcamp 202007
 # Customized .gitignore project rules
 
 # dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp/
 .pnp.js
 
 # testing
-/coverage
-/.scannerwork
+coverage/
+.scannerwork/
 
 # production
-/build
-/dist
+build/
+dist/
 
 # misc
 .DS_Store
