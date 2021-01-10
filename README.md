@@ -1,7 +1,5 @@
 VANILLA JS PUBLIC REPOSITORY
 ============================
-Francesc Brugarolas
--------------------
 
 Some projects in plain, pure Javascript. No frameworks are used in this repo.
 
