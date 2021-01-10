@@ -6,7 +6,8 @@ Some projects in plain, pure Javascript. No frameworks are used in this repo.
 
 ### Projects displayed
 
-1. Conway's Game Of Life, using canvas to display. [GOL](https://github.com/fcesc-code/vanillaJS/tree/master/game_of_life)
+1. Conway's [Game Of Life](https://github.com/fcesc-code/vanillaJS/tree/master/game_of_life), using canvas to display. 
+2. Simple [calculator](https://github.com/fcesc-code/vanillaJS/tree/master/simple_calculator) with DOM manipulation.
 
 ### Versions
 
@@ -38,7 +39,7 @@ Last updated january 2021
 
 ### Author
 
-Francesc Brugarolas. Passionate about building phisically and, especially, in code.
+Francesc Brugarolas. Passionate about building things, both phisically and, especially, in code.
 
 ### Special thanks to
 
