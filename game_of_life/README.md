@@ -36,18 +36,21 @@ Last updated July 2020
 
 ### Quality
 
-[Jasmine](https://jasmine.github.io/):
+*[Jasmine](https://jasmine.github.io/):*
 - 100% code coverage
-[SonarQube](https://www.sonarqube.org/) community edition:
+
+*[SonarQube](https://www.sonarqube.org/) community edition:*
 - 0% security hotspots
 - 0% vulnerabilities
 - 0% bugs
 - 0% code smells
 - 0% code duplication
-HTML Standards verification [W3C](https://validator.w3.org/):
+
+*HTML Standards verification [W3C](https://validator.w3.org/):*
 - 0 warnings
 - 0 errors
-CSS Standards verification [W3C](https://jigsaw.w3.org/css-validator/):
+
+*CSS Standards verification [W3C](https://jigsaw.w3.org/css-validator/):*
 - 0 warnings 
 - 0 errors
 
