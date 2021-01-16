@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNAKE GAME JS</title>
-    <script src="snake.js"></script>
+    <link rel="stylesheet" href="snake.css">
 </head>
 <body>
-    <canvas id='gc' width='400' height='400'></canvas>
+    <audio id='audio'></audio>
+    <h1>SNAKE GAME</h1>
+    <canvas id="gc"></canvas>
+    <div class="stats">
+        <ul>
+            <li>Apples eaten: <span class="" id="apples"></span></li>
+            <li>Poison eaten: <span class="" id="poison"></span></li>
+            <li>Current life: <span class="" id="life"></span></li>
+            <li>Speed: <span class="" id="speed"></span></li>
+            <li>Total points: <span class="" id="points"></span></li>
+        </ul>
+    </div>
+    <script src="snake.js"></script>
 </body>
 </html>
