@@ -46,6 +46,8 @@ const mainTune = [
 
 let audioCtx = new(window.AudioContext || window.webkitAudioContext)();
 let index = 0;
+//mainTune.reverse();
+let tempo = 200;
 
 function playNote(frequency, duration) {
   // create Oscillator node
@@ -69,7 +71,5 @@ function playMelody() {
   index++;
 }
 
-notes.reverse();
-tempo = 100;
 
 playMelody();
