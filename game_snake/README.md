@@ -59,5 +59,12 @@ Francesc Brugarolas. Passionate about building things, both phisically and, espe
 
 ### Special thanks to
 
-@Gilberto Cao
-*skylab-bootcamp-202007* - Visit [Skylab](https://www.skylabcoders.com/es/)
+@Gilberto Cao *skylab-bootcamp-202007* - Visit [Skylab](https://www.skylabcoders.com/es/)\
+@ChrisDeLeon - [Youtube](https://www.youtube.com/watch?v=xGmXxpIj6vs)
+
+### Material from:
+@Ellen Skellington [Freesound](https://freesound.org/s/220337/). Sound played when the snake eats poison. Creative Commons [license](https://creativecommons.org/publicdomain/zero/1.0/)\
+@Breviceps [Freesound](https://freesound.org/s/450624/). Sound played then the snake eats an apple. Creative Commons [license](https://creativecommons.org/publicdomain/zero/1.0/)\
+@Screamstudio [Freesound](https://freesound.org/s/412168/). Game over sound. Creative Commons [license](https://creativecommons.org/publicdomain/zero/1.0/)\
+@Jan Kopriva [Pexels](https://www.pexels.com/es-es/@koprivakart). Background snake image\
+More on [Creative Commons](https://creativecommons.org/), [Pexels](https://pexels.com), [Freesound](https://freesound.org).
