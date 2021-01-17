@@ -1,0 +1,11 @@
+{
+  "name": "game_snake",
+  "version": "0.1.0",
+  "description": "Snake game",
+  "main": "snake.html",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Francesc Brugarolas",
+  "license": "ISC"
+}
