@@ -7,5 +7,8 @@
     "test": "cypress open"
   },
   "author": "Francesc Brugarolas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.2.1"
+  }
 }
