@@ -5,12 +5,10 @@ Get back to main VanillaJS [repo](https://github.com/fcesc-code/vanillaJS/)\
 Visit all my other [repos](https://github.com/fcesc-code/)
 
 ### Versions
-
 Minor quality upgrades January 2021\
 Release July 2020
 
 ### Tech stack
-
 *Languages*
 - Javascript
 
@@ -25,14 +23,12 @@ Release July 2020
 - Sonarqube
 
 ### Philosophy, frameworks & principles
-
 - Agile
 - Scrum
 - SOLID principles
 
 ### Quality
-
-*[Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/):*
+*[Cypress](https://www.cypress.io/):*
 - 100%
 
 *[SonarQube](https://www.sonarqube.org/) community edition:*
@@ -54,15 +50,14 @@ Release July 2020
 - 0 known problems // potential problems ignored since site uses canvas rendering for educational purposes
 
 ### Author
-
 Francesc Brugarolas. Passionate about building things, both phisically and, especially, in code.
 
 ### Special thanks to
-
 @Gilberto Cao *skylab-bootcamp-202007* - Visit [Skylab](https://www.skylabcoders.com/es/)\
 @ChrisDeLeon - [Youtube](https://www.youtube.com/watch?v=xGmXxpIj6vs)
+@Adhithi Ravichandran - [Pluralsight](https://app.pluralsight.com/library/courses/cypress-end-to-end-javascript-testing/table-of-contents)
 
-### Material from:
+### Assets from:
 @Ellen Skellington [Freesound](https://freesound.org/s/220337/). Sound played when the snake eats poison. Creative Commons [license](https://creativecommons.org/publicdomain/zero/1.0/)\
 @Breviceps [Freesound](https://freesound.org/s/450624/). Sound played then the snake eats an apple. Creative Commons [license](https://creativecommons.org/publicdomain/zero/1.0/)\
 @Screamstudio [Freesound](https://freesound.org/s/412168/). Game over sound. Creative Commons [license](https://creativecommons.org/publicdomain/zero/1.0/)\
