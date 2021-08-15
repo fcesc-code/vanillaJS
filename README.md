@@ -22,6 +22,7 @@ Even if the aim is to use as less dependencies as possbile, some dependencies ar
 |Snake game| 0.1.0 | January 2021                |
 |Tetris melody| 0.0.1 | January 2021                |
 |Seat booking app| 0.0.1 | November 2020                |
+
 Last update August 2021
 
 ### Tech stack
