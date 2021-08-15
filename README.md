@@ -2,7 +2,7 @@ VANILLA JS PUBLIC REPOSITORY
 ============================
 
 Some projects in plain, pure Javascript. No frameworks are used in this repo.
-
+Even if the aim is to use as less dependencies as possbile, some dependencies are used mainly for testing.
 
 ### Projects displayed
 
